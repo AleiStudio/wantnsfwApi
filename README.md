@@ -1,4 +1,10 @@
 # use
+
+# Lista
+
+ * wantapiwaifus
+ * wantapimemes
+
 ```js
 const want = require('wantnsfwapi');
 
