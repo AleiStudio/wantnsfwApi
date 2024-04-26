@@ -1,5 +1,5 @@
 # use
-
+```js
 const want = require('wantnsfwapi');
 
 async function obtenerImagen() {
@@ -15,3 +15,4 @@ async function obtenerImagen() {
 }
 
 obtenerImagen();
+```
