@@ -10,5 +10,13 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^1.6.8"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AleiStudio/wantnsfwApi"
+  },
+  "bugs": {
+    "url": "https://github.com/AleiStudio/wantnsfwApi/issues"
+  },
+  "homepage": "https://github.com/AleiStudio/wantnsfwApi#readme"
 }
