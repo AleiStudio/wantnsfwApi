@@ -4,6 +4,8 @@
 
  * wantapiwaifus
  * wantapimemes
+ * wantapinekonsfw
+ * wantapiasshentai
 
 ```js
 const want = require('wantnsfwapi');

@@ -32,7 +32,29 @@ async function wantapimemes() {
     }
 }
 
+async function wantapinekonsfw() {
+    const url = 'https://cdn.apiwant.xyz/api/neko-nsfw';
+    try {
+        const imageUrl = await obtenerUrlAleatoria(url);
+        return imageUrl;
+    } catch (error) {
+        throw new Error(`Error al obtener la imagen de meme: ${error.message}`);
+    }
+}
+
+async function wantapiasshentai() {
+    const url = 'https://cdn.apiwant.xyz/api/asshentai';
+    try {
+        const imageUrl = await obtenerUrlAleatoria(url);
+        return imageUrl;
+    } catch (error) {
+        throw new Error(`Error al obtener la imagen de meme: ${error.message}`);
+    }
+}
+
 module.exports = {
     wantapiwaifus,
     wantapimemes,
+    wantapinekonsfw,
+    wantapiasshentai
 };
