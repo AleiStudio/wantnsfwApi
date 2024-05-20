@@ -1,8 +1,18 @@
 const axios = require('axios');
 
+let token = '';
+
+function setToken(userToken) {
+    token = userToken;
+}
+
 async function obtenerUrlAleatoria(url) {
     try {
-        const response = await axios.get(url);
+        const response = await axios.get(url, {
+            headers: {
+                Authorization: `${token}`
+            }
+        });
         if (response.status !== 200) {
             throw new Error(`Error al obtener la URL aleatoria: ${response.statusText}`);
         }
@@ -38,7 +48,7 @@ async function wantapinekonsfw() {
         const imageUrl = await obtenerUrlAleatoria(url);
         return imageUrl;
     } catch (error) {
-        throw new Error(`Error al obtener la imagen de meme: ${error.message}`);
+        throw new Error(`Error al obtener la imagen de neko-nsfw: ${error.message}`);
     }
 }
 
@@ -48,11 +58,12 @@ async function wantapiasshentai() {
         const imageUrl = await obtenerUrlAleatoria(url);
         return imageUrl;
     } catch (error) {
-        throw new Error(`Error al obtener la imagen de meme: ${error.message}`);
+        throw new Error(`Error al obtener la imagen de asshentai: ${error.message}`);
     }
 }
 
 module.exports = {
+    setToken,
     wantapiwaifus,
     wantapimemes,
     wantapinekonsfw,
