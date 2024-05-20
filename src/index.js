@@ -62,10 +62,21 @@ async function wantapiasshentai() {
     }
 }
 
+async function wantapirealbonitas() {
+    const url = 'https://cdn.apiwant.xyz/api/real/bonitas';
+    try {
+        const imageUrl = await obtenerUrlAleatoria(url);
+        return imageUrl;
+    } catch (error) {
+        throw new Error(`Error al obtener la imagen de asshentai: ${error.message}`);
+    }
+}
+
 module.exports = {
     setToken,
     wantapiwaifus,
     wantapimemes,
     wantapinekonsfw,
-    wantapiasshentai
+    wantapiasshentai,
+    wantapirealbonitas
 };
