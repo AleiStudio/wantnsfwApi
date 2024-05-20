@@ -1,4 +1,7 @@
-# use
+# Importante
+ - Cómo conseguir un token: Debes unirte al servidor de Discord: https://discord.gg/ywVG5WjRg7, entrar en el canal "Conseguir token" y escribir "token". El bot te enviará un mensaje directo (DM) con el token.
+ 
+ [Discord](https://discord.gg/ywVG5WjRg7)
 
 # Lista
 
@@ -8,18 +11,20 @@
  * wantapiasshentai
 
 ```js
-const want = require('wantnsfwapi');
+const apiWant = require('wantnsfwapi');
 
-async function obtenerImagen() {
+apiWant.setToken('TU_TOKEN');
+
+async function APIWANTNSFW() {
     try {
-        const waifuImage = await want.wantapiwaifus();
-        console.log("Imagen de waifu:", waifuImage);
+        const waifuImage = await apiWant.wantapiwaifus();
+        console.log('Waifu Image URL:', waifuImage);
     } catch (error) {
-        console.error("Error:", error.message);
+        console.error(error.message);
     }
 }
 
-obtenerImagen();
+APIWANTNSFW();
 ```
 
 # Pagina
