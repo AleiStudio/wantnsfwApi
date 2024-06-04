@@ -1,19 +1,21 @@
-# Importante
+## Importante
  - Cómo conseguir un token: Debes unirte al servidor de Discord: https://discord.gg/ywVG5WjRg7, entrar en el canal "Conseguir token" y escribir "token". El bot te enviará un mensaje directo (DM) con el token.
  
  [Discord](https://discord.gg/ywVG5WjRg7)
 
-# Lista
- - Memes
+## Lista
+ # Memes
  * wantapimemes
- - Animado
+ # Animado
  * wantapiwaifus
  * wantapinekonsfw
  * wantapiasshentai
- - Reales
+ # Reales
  * wantapirealbonitas
  * wantapirealboobs
  * wantapirealcosplay
+
+ ## Ejemplo
 
 ```js
 const apiWant = require('wantnsfwapi');
