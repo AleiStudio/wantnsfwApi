@@ -1,1 +1,1 @@
-require('./src/want/apiwant');
+module.exports = require('./src/want/apiwant');
