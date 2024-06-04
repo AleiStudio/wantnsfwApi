@@ -68,7 +68,27 @@ async function wantapirealbonitas() {
         const imageUrl = await obtenerUrlAleatoria(url);
         return imageUrl;
     } catch (error) {
-        throw new Error(`Error al obtener la imagen de asshentai: ${error.message}`);
+        throw new Error(`Error al obtener la imagen de real bonitas: ${error.message}`);
+    }
+}
+
+async function wantapirealboobs() {
+    const url = 'https://cdn.apiwant.xyz/api/real/boobs';
+    try {
+        const imageUrl = await obtenerUrlAleatoria(url);
+        return imageUrl;
+    } catch (error) {
+        throw new Error(`Error al obtener la imagen de real boobs: ${error.message}`);
+    }
+}
+
+async function wantapirealcosplay() {
+    const url = 'https://cdn.apiwant.xyz/api/real/cosplay';
+    try {
+        const imageUrl = await obtenerUrlAleatoria(url);
+        return imageUrl;
+    } catch (error) {
+        throw new Error(`Error al obtener la imagen de real cosplay: ${error.message}`);
     }
 }
 
@@ -78,5 +98,7 @@ module.exports = {
     wantapimemes,
     wantapinekonsfw,
     wantapiasshentai,
-    wantapirealbonitas
+    wantapirealbonitas,
+    wantapirealboobs,
+    wantapirealcosplay
 };

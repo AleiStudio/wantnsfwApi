@@ -4,11 +4,16 @@
  [Discord](https://discord.gg/ywVG5WjRg7)
 
 # Lista
-
- * wantapiwaifus
+ - Memes
  * wantapimemes
+ - Animado
+ * wantapiwaifus
  * wantapinekonsfw
  * wantapiasshentai
+ - Reales
+ * wantapirealbonitas
+ * wantapirealboobs
+ * wantapirealcosplay
 
 ```js
 const apiWant = require('wantnsfwapi');
