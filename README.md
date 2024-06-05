@@ -1,5 +1,7 @@
 # Importante
  - Cómo conseguir un token: Debes unirte al servidor de Discord: https://discord.gg/ywVG5WjRg7, entrar en el canal "Conseguir token" y escribir "token". El bot te enviará un mensaje directo (DM) con el token.
+
+ * Esto solo incluye a la API oficial de apiwant.xyz
  
  [Discord](https://discord.gg/ywVG5WjRg7)
 
@@ -40,6 +42,25 @@ async function APIWANTNSFW() {
 }
 
 APIWANTNSFW();
+```
+
+# AnimeWant Buscar
+
+* Necesarios
+- Token
+- Nombre del anime
+
+# Ejemplo
+
+```js
+const { wantanime } = require('wantnsfwapi');
+
+const nombreAnime = 'naruto';
+const token = 'Tu_Token';
+
+wantanime(nombreAnime, token)
+  .then(data => console.log(data))
+  .catch(error => console.error(error));
 ```
 
 # Pagina
