@@ -25,23 +25,16 @@
  - wantapirealcosplay
   </details>
 
- # Ejemplo
+ ## Ejemplo
 
 ```js
-const apiWant = require('wantnsfwapi');
+const { apiwant } = require('wantnsfwapi');
 
-apiWant.setToken('TU_TOKEN');
+apiwant.setToken('Tu_token');
 
-async function APIWANTNSFW() {
-    try {
-        const waifuImage = await apiWant.wantapiwaifus();
-        console.log('Waifu Image URL:', waifuImage);
-    } catch (error) {
-        console.error(error.message);
-    }
-}
-
-APIWANTNSFW();
+apiwant.wantapiasshentai()
+  .then(url => console.log('Imagen URL:', url))
+  .catch(error => console.error(error));
 ```
 
 # AnimeWant Buscar
@@ -50,16 +43,15 @@ APIWANTNSFW();
 - Token
 - Nombre del anime
 
-# Ejemplo
+## Ejemplo
 
 ```js
-const { wantanime } = require('wantnsfwapi');
+const { apianimewant } = require('wantnsfwapi');
+const nombreAnime = 'naruto'; 
+const tokenanime = 'Tu_token';
 
-const nombreAnime = 'naruto';
-const token = 'Tu_Token';
-
-wantanime(nombreAnime, token)
-  .then(data => console.log(data))
+apianimewant.wantanime(nombreAnime, tokenanime)
+  .then(data => console.log('Anime Data:', data))
   .catch(error => console.error(error));
 ```
 

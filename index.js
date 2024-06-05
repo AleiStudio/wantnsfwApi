@@ -1,6 +1,12 @@
-module.exports = require('./src/want/apiwant');
-module.exports = require('./src/anime/anime')
+const apiwant = require('./src/want/apiwant');
+const apianimewant = require('./src/anime/anime');
 
-//Ejemplos
-// require('./ejemplos/anime')
-// require('./ejemplos/apiwant')
+module.exports = {
+  apiwant,
+  apianimewant
+};
+
+
+//test
+// require('./test/anime')
+// require('./test/apiwant')

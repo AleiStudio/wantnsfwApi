@@ -1,10 +1,10 @@
 const axios = require('axios');
 
-async function wantanime(nombre, token) {
+async function wantanime(nombre, tokenanime) {
   try {
     const response = await axios.get(`https://cdn.apiwant.xyz/api/anime/${nombre}`, {
       headers: {
-        'Authorization': token
+        'Authorization': tokenanime
       }
     });
     return response.data;
