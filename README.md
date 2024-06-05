@@ -4,16 +4,24 @@
  [Discord](https://discord.gg/ywVG5WjRg7)
 
 # Lista
- ## Memes
- * wantapimemes
- ## Animado
- * wantapiwaifus
- * wantapinekonsfw
- * wantapiasshentai
- ## Reales
- * wantapirealbonitas
- * wantapirealboobs
- * wantapirealcosplay
+ - **Memes**
+  <details>
+  - wantapimemes
+  </details>
+
+ - **Animado**
+  <details>
+  - wantapiwaifus
+  - wantapinekonsfw
+  - wantapiasshentai
+  </details>
+
+ - **Reales**
+  <details>
+ - wantapirealbonitas
+ - wantapirealboobs
+ - wantapirealcosplay
+  </details>
 
  # Ejemplo
 
