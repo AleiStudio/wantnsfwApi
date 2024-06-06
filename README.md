@@ -55,6 +55,8 @@ apianimewant.wantanime(nombreAnime, tokenanime)
   .catch(error => console.error(error));
 ```
 
+# NO Token(Authorization)
+
 # Tiktok
 
 ## Ejemplo
@@ -67,6 +69,33 @@ const tiktokUrl = 'URL_DEL_TIKTOK';
 apitiktokwant.wantTiktok(tiktokUrl)
   .then(result => console.log('TikTok Data:', result))
   .catch(error => console.error('Error al obtener los datos:', error));
+```
+
+# WantNsfw V2
+
+# Lista
+ - **NSFW**
+  <details>
+  - wantapiwaifuv2
+  - wantapiassv2
+  - wantapibikinisv2
+  - wantapidogv2
+  - wantapiwaifuexoticav2
+  - wantapiboobsv2
+  - wantapiinfluencersv2
+  - wantapicosplayv2
+  - wantapifemboysv2
+  - wantapischoolgirlsv2
+  </details>
+
+```js
+
+const { wantnsfwv2 } = require('wantnsfwapi');
+
+wantnsfwv2.wantapiinfluencersv2()
+  .then(url => console.log('Imagen URL:', url))
+  .catch(error => console.error(error));
+
 ```
 
 # Pagina
