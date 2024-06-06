@@ -55,9 +55,9 @@ apianimewant.wantanime(nombreAnime, tokenanime)
   .catch(error => console.error(error));
 ```
 
-## Tiktok
+# Tiktok
 
-# Ejemplo
+## Ejemplo
 
 ```js
 const { apitiktokwant } = require('wantnsfwapi');
