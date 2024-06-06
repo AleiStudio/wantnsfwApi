@@ -55,6 +55,20 @@ apianimewant.wantanime(nombreAnime, tokenanime)
   .catch(error => console.error(error));
 ```
 
+## Tiktok
+
+# Ejemplo
+
+```js
+const { apitiktokwant } = require('wantnsfwapi');
+
+const tiktokUrl = 'URL_DEL_TIKTOK';
+
+apitiktokwant.wantTiktok(tiktokUrl)
+  .then(result => console.log('TikTok Data:', result))
+  .catch(error => console.error('Error al obtener los datos:', error));
+```
+
 # Pagina
 [Apiweb](https://apiwant.xyz/)
 
