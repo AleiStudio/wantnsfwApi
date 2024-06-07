@@ -189,6 +189,36 @@ async function wantkickxsfw() {
     }
 }
 
+async function wanthappyxsfw() {
+    const url = 'https://api.waifu.pics/sfw/happy';
+    try {
+        const imageUrl = await obtenerUrlAleatoria(url);
+        return imageUrl;
+    } catch (error) {
+        throw new Error(`Error al obtener la imagen de happy: ${error.message}`);
+    }
+}
+
+async function wantdancexsfw() {
+    const url = 'https://api.waifu.pics/sfw/dance';
+    try {
+        const imageUrl = await obtenerUrlAleatoria(url);
+        return imageUrl;
+    } catch (error) {
+        throw new Error(`Error al obtener la imagen de dance: ${error.message}`);
+    }
+}
+
+async function wantcringexsfw() {
+    const url = 'https://api.waifu.pics/sfw/cringe';
+    try {
+        const imageUrl = await obtenerUrlAleatoria(url);
+        return imageUrl;
+    } catch (error) {
+        throw new Error(`Error al obtener la imagen de cringe: ${error.message}`);
+    }
+}
+
 module.exports = {
     wantwaifuxsfw,
     wantnekoxsfw,
@@ -207,5 +237,8 @@ module.exports = {
     wantyeetxsfw,
     wantslapxsfw,
     wantkillxsfw,
-    wantkickxsfw
+    wantkickxsfw,
+    wanthappyxsfw,
+    wantdancexsfw,
+    wantcringexsfw
 };

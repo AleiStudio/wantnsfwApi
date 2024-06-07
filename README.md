@@ -129,7 +129,10 @@ wantnsfwv2.wantapiinfluencersv2()
    - wantyeetxsfw,
    - wantslapxsfw,
    - wantkillxsfw,
-   - wantkickxsfw
+   - wantkickxsfw,
+   - wanthappyxsfw,
+   - wantdancexsfw,
+   - wantcringexsfw
   </details>
 
 ```js
