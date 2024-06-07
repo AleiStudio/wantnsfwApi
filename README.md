@@ -98,6 +98,52 @@ wantnsfwv2.wantapiinfluencersv2()
 
 ```
 
+# WantPicsx
+
+# Lista
+
+ - **NSFW**
+  <details>
+   - wantwaifux,
+   - wantnekox,
+   - wanttrapx,
+   - wantblowjobx
+  </details>
+
+  - **SFW**
+  <details>
+   - wantwaifuxsfw,
+   - wantnekoxsfw,
+   - wantshinobuxsfw,
+   - wantmeguminxsfw,
+   - wantbullyxsfw,
+   - wantcuddlexsfw,
+   - wantcryxsfw,
+   - wanthugxsfw,
+   - wantawooxsfw,
+   - wantkissxsfw,
+   - wantlickxsfw,
+   - wantpatxsfw,
+   - wantsmugxsfw,
+   - wantbonkxsfw,
+   - wantyeetxsfw,
+   - wantslapxsfw,
+   - wantkillxsfw,
+   - wantkickxsfw
+  </details>
+
+```js
+const { wantpicsxsfw, wantpicsx } = require('wantnsfwapi');
+
+wantpicsxsfw.wantwaifuxsfw()
+    .then(url => console.log('SFW Image URL:', url))
+    .catch(error => console.error('Error fetching NSFW waifu image:', error));
+
+wantpicsx.wantwaifux()
+    .then(url => console.log('NSFW Image URL:', url))
+    .catch(error => console.error('Error fetching NSFW waifu image:', error));
+```
+
 # Pagina
 [Apiweb](https://apiwant.xyz/)
 
