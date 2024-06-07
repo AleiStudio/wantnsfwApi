@@ -25,8 +25,6 @@
  - wantapirealcosplay
   </details>
 
- ## Ejemplo
-
 ```js
 const { apiwant } = require('wantnsfwapi');
 
@@ -43,8 +41,6 @@ apiwant.wantapiasshentai()
 - Token
 - Nombre del anime
 
-## Ejemplo
-
 ```js
 const { apianimewant } = require('wantnsfwapi');
 const nombreAnime = 'naruto'; 
@@ -58,8 +54,6 @@ apianimewant.wantanime(nombreAnime, tokenanime)
 # NO Token(Authorization)
 
 # Tiktok
-
-## Ejemplo
 
 ```js
 const { apitiktokwant } = require('wantnsfwapi');
@@ -145,6 +139,60 @@ wantpicsxsfw.wantwaifuxsfw()
 wantpicsx.wantwaifux()
     .then(url => console.log('NSFW Image URL:', url))
     .catch(error => console.error('Error fetching NSFW waifu image:', error));
+```
+
+# WantHub
+
+# Lista
+
+ - **NSFW**
+  <details>
+- ass 
+- sixtynine
+- pussy
+- dick
+- anal
+- boobs
+- ass
+- bdsm
+- black
+- easter
+- bottomless
+- blowjub
+- collared
+- cum
+- cumsluts
+- dp
+- dom
+- extreme
+- feet
+- finger
+- fuck
+- futa
+- gay
+- gif
+- group
+- hentai
+- kiss
+- lesbian
+- lick
+- pegged
+- phgif
+- puffies
+- real
+- suck
+- tattoo
+- tiny
+- toys
+- xmas
+  </details>
+
+```js
+const { wanthub } = require('wantnsfwapi');
+
+wanthub.wanthubx('gif')
+  .then(url => console.log('Imagen URL:', url))
+  .catch(error => console.error(error));
 ```
 
 # Pagina

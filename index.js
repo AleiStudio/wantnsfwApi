@@ -3,13 +3,15 @@ const apianimewant = require('./src/anime/anime');
 const others = require('./others/index');
 const wantnsfwv2 = require('./wantnsfw/index')
 const wantwaifux = require('./waifupic/index')
+const wanth = require('./hub/index')
 
 module.exports = {
   apiwant,
   apianimewant,
   ...others,
   ...wantnsfwv2,
-  ...wantwaifux
+  ...wantwaifux,
+  ...wanth
 };
 
 //test
