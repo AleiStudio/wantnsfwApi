@@ -201,27 +201,27 @@ wanthub.wanthubx('gif')
 
 - **SFW**
   <details>
-- 1girl
-- blue_eyes
-- jacket
-- pantyhose
-- blush
-- neck_ribbon
-- solo
-- idolmaster
-- long_hair
-- pleated_skirt
-- school_uniform
-- highres
+  - 1girl
+  - blue_eyes
+  - jacket
+  - pantyhose
+  - blush
+  - neck_ribbon
+  - solo
+  - idolmaster
+  - long_hair
+  - pleated_skirt
+  - school_uniform
+  - highres
   </details>
 
 - **Limite**
   <details>
-- 1 Foto
-- 2 Foto
-- 3 Foto
-- 4 Foto
-- 5 Foto
+  - 1 Foto
+  - 2 Foto
+  - 3 Foto
+  - 4 Foto
+  - 5 Foto
   </details>
 
 ```js
