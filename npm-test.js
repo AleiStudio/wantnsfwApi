@@ -5,3 +5,4 @@
 // require('./test/wantwaifux')
 // require('./test/wantwaifuxsfw')
 // require('./test/wanthub')
+// require('./test/wantsafesearch')

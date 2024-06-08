@@ -4,6 +4,7 @@ const others = require('./others/index');
 const wantnsfwv2 = require('./wantnsfw/index')
 const wantwaifux = require('./waifupic/index')
 const wanth = require('./hub/index')
+const wantsafex = require('./wantsafe/index')
 
 module.exports = {
   apiwant,
@@ -11,7 +12,8 @@ module.exports = {
   ...others,
   ...wantnsfwv2,
   ...wantwaifux,
-  ...wanth
+  ...wanth,
+  ...wantsafex
 };
 
 //test

@@ -195,6 +195,47 @@ wanthub.wanthubx('gif')
   .catch(error => console.error(error));
 ```
 
+# WantSafe
+
+# Lista
+
+- **SFW**
+  <details>
+- 1girl
+- blue_eyes
+- jacket
+- pantyhose
+- blush
+- neck_ribbon
+- solo
+- idolmaster
+- long_hair
+- pleated_skirt
+- school_uniform
+- highres
+  </details>
+
+- **Limite**
+  <details>
+- 1 Foto
+- 2 Foto
+- 3 Foto
+- 4 Foto
+- 5 Foto
+  </details>
+
+```js
+const { wantsafe } = require('wantnsfwapi');
+
+wantsafe.wantsafex('school_uniform', 5)
+    .then(urls => {
+        urls.forEach(url => {
+            console.log('Image URL:', url);
+        });
+    })
+    .catch(error => console.error('Error fetching images:', error));
+```
+
 # Pagina
 [Apiweb](https://apiwant.xyz/)
 
