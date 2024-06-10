@@ -1,3 +1,14 @@
+<div align="center">
+    <br />
+    <p>
+        <a href="https://apiwant.xyz/"><img src="https://api.wantimg.xyz/wantnpm-portada.png" width="546" alt="wantapi" /></a>
+    </p>
+    <br />
+    <p>
+        <a href="https://www.npmjs.com/package/wantnsfwapi"><img src="https://img.shields.io/npm/v/discord.js.svg?maxAge=3600" alt="npm version" /></a>
+        <a href="https://www.npmjs.com/package/wantnsfwapi"><img src="https://img.shields.io/npm/v/wantnsfwapi" alt="npm downloads" /></a>
+    </p>
+</div>
 # Importante
  - Cómo conseguir un token: Debes unirte al servidor de Discord: https://discord.gg/ywVG5WjRg7, entrar en el canal "Conseguir token" y escribir "token". El bot te enviará un mensaje directo (DM) con el token.
 
