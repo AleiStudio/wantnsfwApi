@@ -5,8 +5,8 @@
     </p>
     <br />
     <p>
-        <a href="https://www.npmjs.com/package/wantnsfwapi"><img src="https://img.shields.io/npm/v/discord.js.svg?maxAge=3600" alt="npm version" /></a>
-        <a href="https://www.npmjs.com/package/wantnsfwapi"><img src="https://img.shields.io/npm/v/wantnsfwapi" alt="npm downloads" /></a>
+        <a href="https://www.npmjs.com/package/wantnsfwapi"><img src="https://img.shields.io/npm/v/wantnsfwapi" alt="npm version" /></a>
+        <a href="https://www.npmjs.com/package/wantnsfwapi"><img src="https://img.shields.io/npm/d18m/wantnsfwapi" alt="npm downloads" /></a>
     </p>
 </div>
 # Importante
