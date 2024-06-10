@@ -9,6 +9,7 @@
         <a href="https://www.npmjs.com/package/wantnsfwapi"><img src="https://img.shields.io/npm/d18m/wantnsfwapi" alt="npm downloads" /></a>
     </p>
 </div>
+
 # Importante
  - Cómo conseguir un token: Debes unirte al servidor de Discord: https://discord.gg/ywVG5WjRg7, entrar en el canal "Conseguir token" y escribir "token". El bot te enviará un mensaje directo (DM) con el token.
 
@@ -245,6 +246,30 @@ wantsafe.wantsafex('school_uniform', 5)
         });
     })
     .catch(error => console.error('Error fetching images:', error));
+```
+
+# WantRule34
+
+## Buscar
+**Nota**
+* Recuerda que la busqueda debe ser en ingles
+
+## Random
+**Nota**
+* El random se basa en tags populares
+
+```js
+const { wantrl34, wantrlp } = require('wantnsfwapi');
+
+////Buscar Rule34
+wantrl34.wantrule34x('boobs')
+    .then(image => console.log('NSFW Image URL:', image))
+    .catch(error => console.error('Error fetching NSFW waifu image:', error));
+
+////Rule34 Random
+wantrlp.wantrule34random()
+    .then(image => console.log('NSFW Image Random URL:', image))
+    .catch(error => console.error('Error fetching NSFW waifu image:', error));
 ```
 
 # Pagina
