@@ -272,6 +272,42 @@ wantrlp.wantrule34random()
     .catch(error => console.error('Error fetching NSFW waifu image:', error));
 ```
 
+# wantnekonsfw
+
+# Lista
+
+- **NSFW**
+  <details>
+  - wantnekohentai,
+  - wantnekoass,
+  - wantnekopussy,
+  - wantnekoanal,
+  - wantnekokanna,
+  - wantnekofour,
+  - wantnekohanal,
+  - wantnekoboobs,
+  - wantnekothigh,
+  - wantnekotentacle,
+  - wantnekohboobs,
+  - wantnekoholo,
+  - wantnekohass,
+  - wantnekopgif,
+  - wantnekohthigh,
+  - wantnekoyaoi,
+  - wantnekohneko,
+  - wantneko,
+  - wantnekohkitsune,
+  - wantnekokemonomimi  
+  </details>
+
+```js
+const { wantnekonsfw } = require('wantnsfwapi');
+
+wantnekonsfw.wantneko()
+    .then(url => console.log('Neko NSFW Image URL:', url))
+    .catch(error => console.error('Error fetching NSFW Neko image:', error));
+```
+
 # Pagina
 [Apiweb](https://apiwant.xyz/)
 
